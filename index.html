@@ -1,257 +1,34 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>المطعم الملكي | أصالة المذاق اليمني</title>
-    <meta name="keywords" content="مطعم يمني في صنعاء, أفضل سلتة وفحسة, مندي شارع خولان, مطاعم عائلية بصنعاء, المطعم الملكي">
-    <meta name="description" content="المطعم الملكي يقدم لك أفضل الأطباق اليمنية الأصيلة. سلتة، فحسة، ومندي في شارع خولان بصنعاء. قسم خاص للعائلات وجلسات عربية مريحة.">
-    
-    <!-- Google Fonts & FontAwesome -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <i class="fa-solid fa-utensils text-gold"></i>
-                <span>المطعم الملكي</span>
-            </div>
-            <ul class="nav-links" id="nav-links">
-                <li><a href="#home">الرئيسية</a></li>
-                <li><a href="#about">من نحن</a></li>
-                <li><a href="#menu">قائمة الطعام</a></li>
-                <li><a href="#services">خدماتنا</a></li>
-                <li><a href="#reviews">الآراء</a></li>
-                <li><a href="#contact">اتصل بنا</a></li>
-                <li class="mobile-only"><a href="#services" class="btn btn-gold">اطلب الآن</a></li>
-            </ul>
-            <div class="nav-actions">
-                <a href="#services" class="btn btn-gold desktop-only">اطلب الآن</a>
-                <button class="menu-toggle" id="menu-toggle">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header id="home" class="hero section">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-            <h1>أصالة المذاق اليمني <br> <span class="text-gold">في قلب صنعاء</span></h1>
-            <p>نقدم لكم تجربة فريدة تجمع بين عراقة التراث اليمني والخدمة العصرية. اكتشف أشهى الأطباق المحضرة يومياً بأجود المكونات.</p>
-            <div class="hero-buttons">
-                <a href="#services" class="btn btn-red">اطلب الآن <i class="fa-solid fa-motorcycle"></i></a>
-                <a href="#menu" class="btn btn-outline">عرض قائمة الطعام <i class="fa-solid fa-book-open"></i></a>
-            </div>
-        </div>
-    </header>
-
-    <!-- About Us Section -->
-    <section id="about" class="section pattern-bg">
-        <div class="container split-layout">
-            <div class="about-text">
-                <h2 class="section-title">من نحن</h2>
-                <p>يعكس <strong>المطعم الملكي</strong> التزامنا الراسخ بتقديم تجربة المذاق اليمني الأصيل الممزوجة بالخدمة الممتازة وأعلى معايير النظافة. نحن لسنا مجرد مطعم، بل وجهة تحتفي بالتراث والضيافة اليمنية.</p>
-                <ul class="features-list">
-                    <li><i class="fa-solid fa-check text-gold"></i> جلسات عربية مريحة (مفارج) تضفي طابعاً من الحميمية.</li>
-                    <li><i class="fa-solid fa-check text-gold"></i> قسم مخصص للعائلات يضمن الخصوصية التامة.</li>
-                    <li><i class="fa-solid fa-check text-gold"></i> تراس خارجي رائع لتناول الطعام في الهواء الطلق.</li>
-                </ul>
-            </div>
-            <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="المطعم الملكي">
-                <div class="rating-badge">
-                    <div class="rating-stars"><i class="fa-solid fa-star"></i> 4.1</div>
-                    <div class="rating-count">+2,400 تقييم</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Menu Section -->
-    <section id="menu" class="section">
+<section id="services" class="section bg-brown text-white pattern-bg">
         <div class="container">
             <div class="section-header text-center">
-                <h2 class="section-title">قائمة الطعام</h2>
-                <p>تشكيلة واسعة من أشهى الأطباق المحضرة بأيدي أمهر الطهاة</p>
+                <h2 class="section-title text-white">طريقة الطلب</h2>
+                <p>نحن نوفر لك أسرع الطرق لتستمتع بوجبتك</p>
             </div>
             <div class="grid-3">
-                <!-- Category 1 -->
-                <div class="card menu-card border-top-brown">
-                    <i class="fa-solid fa-fire-burner card-icon text-brown"></i>
-                    <h3 class="text-red">الأطباق اليمنية الأصيلة</h3>
-                    <ul class="menu-list">
-                        <li><span>سلتة بلدي</span> <span class="badge"><i class="fa-solid fa-star"></i> أفضل طلب</span></li>
-                        <li><span>فحسة لحم طازج</span></li>
-                        <li><span>مندي دجاج / لحم</span></li>
-                        <li><span>مظبي على الحجر</span></li>
-                    </ul>
-                </div>
-                <!-- Category 2 -->
-                <div class="card menu-card border-top-gold">
-                    <i class="fa-solid fa-drumstick-bite card-icon text-gold"></i>
-                    <h3 class="text-red">المشويات</h3>
-                    <ul class="menu-list">
-                        <li><span>كباب لحم ضأن</span></li>
-                        <li><span>كباب دجاج</span></li>
-                        <li><span>دجاج مشوي على الطريقة التركية</span></li>
-                        <li><span>مشاوي مشكلة</span></li>
-                    </ul>
-                </div>
-                <!-- Category 3 -->
-                <div class="card menu-card border-top-brown">
-                    <i class="fa-solid fa-bowl-rice card-icon text-brown"></i>
-                    <h3 class="text-red">أطباق أخرى ومقبلات</h3>
-                    <ul class="menu-list">
-                        <li><span>لحم طازج يومي</span></li>
-                        <li><span>برياني لحم / دجاج</span></li>
-                        <li><span>مقبلات مشكلة</span></li>
-                        <li><span>سلطات طازجة متنوعة</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="section bg-brown text-white pattern-bg">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title text-white">خيارات الخدمة</h2>
-                <p>نحن هنا لنقدم لك طعامك المفضل بالطريقة التي تناسبك</p>
-            </div>
-            <div class="grid-3">
-                <div class="service-card glass-effect">
-                    <i class="fa-solid fa-chair text-gold service-icon"></i>
-                    <h3>الأكل داخل المطعم</h3>
-                    <p>استمتع بوجبتك في أجواء يمنية أصيلة، سواء في الجلسات العربية أو قسم العائلات الخاص.</p>
-                </div>
                 
-                <!-- Highlighted Takeaway -->
-                <div class="service-card highlighted text-brown bg-white">
-                    <span class="fast-badge">الأسرع</span>
-                    <i class="fa-solid fa-bag-shopping text-red service-icon"></i>
-                    <h3>استلام من الفرع (سفري)</h3>
-                    <p>اطلب مسبقاً واستلم طلبك بسرعة بدون انتظار لتجنب الازدحام في أوقات الذروة.</p>
-                    <button class="btn btn-brown w-100">اطلب سفري الآن</button>
-                </div>
-
                 <div class="service-card glass-effect">
                     <i class="fa-solid fa-motorcycle text-gold service-icon"></i>
-                    <h3>خدمة التوصيل</h3>
-                    <p>أينما كنت في صنعاء، يصلك طعامك ساخناً وفي أسرع وقت ممكن إلى باب بيتك.</p>
+                    <h3>توصيل عبر وجبات</h3>
+                    <p>يمكنك طلب أطباقك المفضلة عبر منصة وجبات لتصلك ساخنة أينما كنت في أسرع وقت.</p>
                 </div>
+                
+                <div class="service-card highlighted text-brown bg-white">
+                    <span class="fast-badge">مباشر</span>
+                    <i class="fa-solid fa-phone text-red service-icon"></i>
+                    <h3>اتصال هاتفي مباشر</h3>
+                    <p>اضغط على الزر أدناه ليتم نقلك مباشرة إلى جهات الاتصال في هاتفك والطلب فوراً بدون أي عناء.</p>
+                    <a href="tel:+967123456789" class="btn btn-brown w-100" style="display: block; text-align: center;">اتصل للطلب الآن</a>
+                </div>
+
+                <div class="service-card glass-effect flex flex-col justify-between">
+                    <div>
+                        <i class="fa-solid fa-bag-shopping text-gold service-icon"></i>
+                        <h3>استلام من الفرع (سفري)</h3>
+                        <p>اتصل بنا مسبقاً، وسنقوم بتجهيز طلبك لتستلمه جاهزاً عند وصولك لتوفير وقتك.</p>
+                    </div>
+                    <a href="tel:+967123456789" class="btn btn-gold w-100" style="display: block; text-align: center; margin-top: 15px;">اطلب سفري الآن <i class="fa-solid fa-phone"></i></a>
+                </div>
+
             </div>
         </div>
     </section>
-
-    <!-- Testimonials Section -->
-    <section id="reviews" class="section bg-light">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">آراء عملائنا الكرام</h2>
-                <p>نفخر بتقييم 4.1 نجوم من أكثر من 2,400 عميل</p>
-            </div>
-            <div class="grid-3">
-                <!-- Review 1 -->
-                <div class="card review-card">
-                    <div class="stars text-gold">★★★★★</div>
-                    <p class="review-text">"يعتبر المطعم الملكي من الوجهات المميزة. يشتهر بتقديم تجربة تجمع بين المذاق التقليدي والخدمة الجيدة. الجلسات العربية مريحة وتضفي طابعاً من الحميمية، كما يوجد قسم خاص للعائلات يوفر خصوصية تامة."</p>
-                    <div class="reviewer">
-                        <div class="avatar">Y</div>
-                        <h4>YOUSIF AL JARF</h4>
-                    </div>
-                </div>
-                <!-- Review 2 -->
-                <div class="card review-card">
-                    <div class="stars text-gold">★★★★★</div>
-                    <p class="review-text">"تجربتي كانت ممتازة! الطعام كان لذيذاً جداً، والمطعم نظيف إلى حد كبير. يتميز طاقم العمل بالاحترافية والالتزام بزي موحد ونظيف. الخدمة سريعة والمكان واسع ومريح جداً لتناول العشاء."</p>
-                    <div class="reviewer">
-                        <div class="avatar">K</div>
-                        <h4>Khaled Al-Hamdani</h4>
-                    </div>
-                </div>
-                <!-- Review 3 -->
-                <div class="card review-card">
-                    <div class="stars text-gold">★★★★★</div>
-                    <p class="review-text">"مطعم الملكي يتميز بأطباقه الشهية وطعمه الأصيل والمعروف للجميع. يعتبر خياراً مثالياً ومحطة رئيسية للباحثين عن جودة الطعام والمذاق الرائع."</p>
-                    <div class="reviewer">
-                        <div class="avatar">O</div>
-                        <h4>OSAMAH</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section pattern-bg">
-        <div class="container">
-            <div class="contact-wrapper shadow-lg">
-                <div class="contact-info">
-                    <h2 class="section-title">موقعنا والتواصل</h2>
-                    <ul class="contact-list">
-                        <li>
-                            <i class="fa-solid fa-location-dot text-red"></i>
-                            <div>
-                                <h4>العنوان</h4>
-                                <p>شارع خولان، مقابل مستشفى الثورة ومبنى النادي الأهلي، صنعاء، اليمن.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-clock text-gold"></i>
-                            <div>
-                                <h4>ساعات العمل</h4>
-                                <p>مفتوح يومياً من الصباح وحتى الساعة 12:00 منتصف الليل.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fa-solid fa-phone text-green"></i>
-                            <div>
-                                <h4>للطلبات والاستفسار</h4>
-                                <p dir="ltr" style="text-align: right;">+967 123 456 789</p>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="alert-box">
-                        <i class="fa-solid fa-circle-info"></i>
-                        <strong>ملاحظة للمواقف:</strong> تتوفر مواقف مجانية في الشارع، (يرجى ملاحظة أن المنطقة التجارية قد تكون مزدحمة في أوقات الذروة).
-                    </div>
-                </div>
-                <div class="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15362.436737525287!2d44.2238475!3d15.3400512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1603db003185deeb%3A0x6b63d1a89c9d7df0!2z2KfZhNmF2LTYudmFINin2YTZhdmE2YPYjQ!5e0!3m2!1sar!2s!4v1716388489839!5m2!1sar!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container text-center">
-            <h3 class="text-gold">المطعم الملكي</h3>
-            <p>أصالة المذاق اليمني وجودة الخدمة التي تستحقها.</p>
-            <div class="social-links">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </div>
-            <div class="copyright">
-                &copy; 2026 جميع الحقوق محفوظة لـ المطعم الملكي.
-            </div>
-        </div>
-    </footer>
-
-    <!-- Custom JS -->
-    <script src="script.js"></script>
-</body>
-</html>
