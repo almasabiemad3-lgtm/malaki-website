@@ -1,13 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Mobile Menu Toggle Logic
     const menuToggle = document.getElementById("menu-toggle");
     const navLinks = document.getElementById("nav-links");
 
     menuToggle.addEventListener("click", () => {
-        // إضافة أو إزالة كلاس active لإظهار/إخفاء القائمة في الهواتف
+        // إظهار أو إخفاء القائمة المنسدلة في الهاتف
         navLinks.classList.toggle("active");
         
-        // تغيير الأيقونة بين القائمة الجانبية (Bars) وزر الإغلاق (X)
+        // تغيير أيقونة الزر
         const icon = menuToggle.querySelector('i');
         if(navLinks.classList.contains("active")) {
             icon.classList.remove("fa-bars");
@@ -18,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    // إغلاق القائمة تلقائياً عند الضغط على أي رابط بداخلها
+    // إغلاق القائمة تلقائياً عند الضغط على أي رابط
     const links = navLinks.querySelectorAll("a");
     links.forEach(link => {
         link.addEventListener("click", () => {
@@ -30,8 +29,4 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
-
-    // 2. Smooth Scrolling Effect
-    // أضفنا التمرير السلس في الـ CSS (scroll-behavior: smooth)، 
-    // ولكن يمكن إضافة تأثيرات إضافية هنا عند الحاجة مستقبلاً.
 });
