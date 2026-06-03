@@ -7,15 +7,18 @@
     <meta name="keywords" content="مطعم يمني في صنعاء, مشاوي, بيتزا, المطعم الملكي, وجبات">
     <meta name="description" content="المطعم الملكي. استمتع بأشهى المشويات، البيتزا، والساندوتشات. فطور، غداء، وعشاء.">
     
+    <!-- Google Fonts & FontAwesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="container nav-container">
             <div class="logo">
@@ -28,9 +31,11 @@
                 <li><a href="#menu">قائمة الطعام</a></li>
                 <li><a href="#services">خدماتنا</a></li>
                 <li><a href="#contact">اتصل بنا</a></li>
+                <!-- زر الطلب المباشر للهواتف في القائمة المنسدلة -->
                 <li class="mobile-only"><a href="tel:+967123456789" class="btn btn-gold">اطلب الآن <i class="fa-solid fa-phone"></i></a></li>
             </ul>
             <div class="nav-actions">
+                <!-- زر الطلب المباشر للشاشات الكبيرة -->
                 <a href="tel:+967123456789" class="btn btn-gold desktop-only">اطلب الآن <i class="fa-solid fa-phone"></i></a>
                 <button class="menu-toggle" id="menu-toggle">
                     <i class="fa-solid fa-bars"></i>
@@ -39,18 +44,21 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <header id="home" class="hero section">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
             <h1>المطعم الملكي <br> <span class="text-gold">تنوع يرضي جميع الأذواق</span></h1>
             <p>نقدم لكم تشكيلة واسعة من المشويات الطازجة، البيتزا الإيطالية، والساندوتشات السريعة. فطور، غداء، وعشاء.</p>
             <div class="hero-buttons">
+                <!-- زر الاتصال المباشر -->
                 <a href="tel:+967123456789" class="btn btn-red">اطلب الآن <i class="fa-solid fa-phone-volume"></i></a>
                 <a href="#menu" class="btn btn-outline">عرض قائمة الطعام <i class="fa-solid fa-book-open"></i></a>
             </div>
         </div>
     </header>
 
+    <!-- About Us Section -->
     <section id="about" class="section pattern-bg">
         <div class="container split-layout">
             <div class="about-text">
@@ -63,7 +71,8 @@
                 </ul>
             </div>
             <div class="about-image">
-                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="المطعم الملكي">
+                <!-- الصورة الطولية للمطعم من الداخل -->
+                <img src="٢٠٢٥١٢٢٤_١٨١١٥٨.jpg" alt="المطعم الملكي من الداخل">
                 <div class="rating-badge">
                     <div class="rating-stars"><i class="fa-solid fa-star"></i> 7.4/10</div>
                     <div class="rating-count">370 تقييم (منصة وجبات)</div>
@@ -72,6 +81,7 @@
         </div>
     </section>
 
+    <!-- Menu Section -->
     <section id="menu" class="section">
         <div class="container">
             <div class="section-header text-center">
@@ -79,6 +89,7 @@
                 <p>مقتطفات من أشهى الأطباق المتاحة للطلب الفوري</p>
             </div>
             <div class="grid-3">
+                <!-- Category 1: BBQ -->
                 <div class="card menu-card border-top-brown">
                     <i class="fa-solid fa-fire card-icon text-brown"></i>
                     <h3 class="text-red">ركن المشويات</h3>
@@ -90,6 +101,7 @@
                     </ul>
                 </div>
                 
+                <!-- Category 2: Pizza -->
                 <div class="card menu-card border-top-gold">
                     <i class="fa-solid fa-pizza-slice card-icon text-gold"></i>
                     <h3 class="text-red">ركن البيتزا</h3>
@@ -101,6 +113,7 @@
                     </ul>
                 </div>
                 
+                <!-- Category 3: Sandwiches & Desserts -->
                 <div class="card menu-card border-top-brown">
                     <i class="fa-solid fa-burger card-icon text-brown"></i>
                     <h3 class="text-red">ساندوتشات وحلويات</h3>
@@ -115,6 +128,7 @@
         </div>
     </section>
 
+    <!-- Services Section -->
     <section id="services" class="section bg-brown text-white pattern-bg">
         <div class="container">
             <div class="section-header text-center">
@@ -123,12 +137,14 @@
             </div>
             <div class="grid-3">
                 
+                <!-- Delivery -->
                 <div class="service-card glass-effect">
                     <i class="fa-solid fa-motorcycle text-gold service-icon"></i>
                     <h3>توصيل عبر وجبات</h3>
                     <p>يمكنك طلب أطباقك المفضلة عبر منصة وجبات لتصلك ساخنة أينما كنت في أسرع وقت.</p>
                 </div>
                 
+                <!-- Highlighted Direct Call -->
                 <div class="service-card highlighted text-brown bg-white">
                     <span class="fast-badge">مباشر</span>
                     <i class="fa-solid fa-phone text-red service-icon"></i>
@@ -137,12 +153,14 @@
                     <a href="tel:+967123456789" class="btn btn-brown w-100" style="display: block; text-align: center;">اتصل للطلب الآن</a>
                 </div>
 
+                <!-- Takeaway with Direct Call Button -->
                 <div class="service-card glass-effect flex flex-col justify-between" style="display: flex; flex-direction: column; justify-content: space-between;">
                     <div>
                         <i class="fa-solid fa-bag-shopping text-gold service-icon"></i>
                         <h3>استلام من الفرع (سفري)</h3>
                         <p>اتصل بنا مسبقاً، وسنقوم بتجهيز طلبك لتستلمه جاهزاً عند وصولك لتوفير وقتك.</p>
                     </div>
+                    <!-- زر اطلب سفري الآن مع رابط الاتصال -->
                     <a href="tel:+967123456789" class="btn btn-gold w-100" style="display: block; text-align: center; margin-top: 15px; background-color: var(--yemeni-gold); color: var(--yemeni-brown); border-radius: 30px; padding: 12px 30px; font-weight: bold;">اطلب سفري الآن <i class="fa-solid fa-phone"></i></a>
                 </div>
 
@@ -150,6 +168,7 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="section pattern-bg">
         <div class="container">
             <div class="contact-wrapper shadow-lg">
@@ -185,6 +204,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container text-center">
             <h3 class="text-gold">المطعم الملكي</h3>
@@ -195,6 +215,7 @@
         </div>
     </footer>
 
+    <!-- Custom JS -->
     <script src="script.js"></script>
 </body>
 </html>
