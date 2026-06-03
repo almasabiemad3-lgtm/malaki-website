@@ -1,4 +1,121 @@
-<section id="services" class="section bg-brown text-white pattern-bg">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المطعم الملكي | أصالة المذاق</title>
+    <meta name="keywords" content="مطعم يمني في صنعاء, مشاوي, بيتزا, المطعم الملكي, وجبات">
+    <meta name="description" content="المطعم الملكي. استمتع بأشهى المشويات، البيتزا، والساندوتشات. فطور، غداء، وعشاء.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-utensils text-gold"></i>
+                <span>المطعم الملكي</span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#menu">قائمة الطعام</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+                <li class="mobile-only"><a href="tel:+967123456789" class="btn btn-gold">اطلب الآن <i class="fa-solid fa-phone"></i></a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="tel:+967123456789" class="btn btn-gold desktop-only">اطلب الآن <i class="fa-solid fa-phone"></i></a>
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>المطعم الملكي <br> <span class="text-gold">تنوع يرضي جميع الأذواق</span></h1>
+            <p>نقدم لكم تشكيلة واسعة من المشويات الطازجة، البيتزا الإيطالية، والساندوتشات السريعة. فطور، غداء، وعشاء.</p>
+            <div class="hero-buttons">
+                <a href="tel:+967123456789" class="btn btn-red">اطلب الآن <i class="fa-solid fa-phone-volume"></i></a>
+                <a href="#menu" class="btn btn-outline">عرض قائمة الطعام <i class="fa-solid fa-book-open"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section pattern-bg">
+        <div class="container split-layout">
+            <div class="about-text">
+                <h2 class="section-title">عن المطعم</h2>
+                <p><strong>المطعم الملكي</strong> يوفر لك تجربة طعام متكاملة تناسب جميع الأوقات. سواء كنت تبحث عن وجبة إفطار خفيفة، أو غداء من المشويات الطازجة، أو عشاء غني بالخيارات مثل البيتزا والساندوتشات. يتميز المطعم بجودة مكوناته وتنوع قائمته لتلبي كافة الأذواق.</p>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-check text-gold"></i> فطور، غداء، وعشاء (الحد الأدنى للطلب 1000 ريال).</li>
+                    <li><i class="fa-solid fa-check text-gold"></i> مشويات طازجة ومحضرة يومياً.</li>
+                    <li><i class="fa-solid fa-check text-gold"></i> بيتزا بمختلف الأنواع ومحشية الأطراف بالجبن.</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="المطعم الملكي">
+                <div class="rating-badge">
+                    <div class="rating-stars"><i class="fa-solid fa-star"></i> 7.4/10</div>
+                    <div class="rating-count">370 تقييم (منصة وجبات)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">قائمة الطعام</h2>
+                <p>مقتطفات من أشهى الأطباق المتاحة للطلب الفوري</p>
+            </div>
+            <div class="grid-3">
+                <div class="card menu-card border-top-brown">
+                    <i class="fa-solid fa-fire card-icon text-brown"></i>
+                    <h3 class="text-red">ركن المشويات</h3>
+                    <ul class="menu-list">
+                        <li><span>طبق مشاوي ملكي</span> <span class="badge">3000 ريال</span></li>
+                        <li><span>لحم شقف (أوصال لحم)</span> <span class="badge">2200 ريال</span></li>
+                        <li><span>شيش طاووق</span> <span class="badge">2000 ريال</span></li>
+                        <li><span>كباب لحم / دجاج</span> <span class="badge">1800 ريال</span></li>
+                    </ul>
+                </div>
+                
+                <div class="card menu-card border-top-gold">
+                    <i class="fa-solid fa-pizza-slice card-icon text-gold"></i>
+                    <h3 class="text-red">ركن البيتزا</h3>
+                    <ul class="menu-list">
+                        <li><span>بيتزا مناقيش سبيشل (محشي جبن)</span> <span class="badge">4000 ريال</span></li>
+                        <li><span>بيتزا باللحم (محشي جبن)</span> <span class="badge">3300 ريال</span></li>
+                        <li><span>بيتزا عش البلبل</span> <span class="badge">2800 ريال</span></li>
+                        <li><span>بيتزا مارجريتا (محشي جبن)</span> <span class="badge">2700 ريال</span></li>
+                    </ul>
+                </div>
+                
+                <div class="card menu-card border-top-brown">
+                    <i class="fa-solid fa-burger card-icon text-brown"></i>
+                    <h3 class="text-red">ساندوتشات وحلويات</h3>
+                    <ul class="menu-list">
+                        <li><span>فتة ملكي بالقشطة والعسل</span> <span class="badge">2000 ريال</span></li>
+                        <li><span>كرسبي رول</span> <span class="badge">1800 ريال</span></li>
+                        <li><span>معصوبة ملكي</span> <span class="badge">1500 ريال</span></li>
+                        <li><span>ساندوتش زنجر</span> <span class="badge">1300 ريال</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section bg-brown text-white pattern-bg">
         <div class="container">
             <div class="section-header text-center">
                 <h2 class="section-title text-white">طريقة الطلب</h2>
@@ -20,15 +137,64 @@
                     <a href="tel:+967123456789" class="btn btn-brown w-100" style="display: block; text-align: center;">اتصل للطلب الآن</a>
                 </div>
 
-                <div class="service-card glass-effect flex flex-col justify-between">
+                <div class="service-card glass-effect flex flex-col justify-between" style="display: flex; flex-direction: column; justify-content: space-between;">
                     <div>
                         <i class="fa-solid fa-bag-shopping text-gold service-icon"></i>
                         <h3>استلام من الفرع (سفري)</h3>
                         <p>اتصل بنا مسبقاً، وسنقوم بتجهيز طلبك لتستلمه جاهزاً عند وصولك لتوفير وقتك.</p>
                     </div>
-                    <a href="tel:+967123456789" class="btn btn-gold w-100" style="display: block; text-align: center; margin-top: 15px;">اطلب سفري الآن <i class="fa-solid fa-phone"></i></a>
+                    <a href="tel:+967123456789" class="btn btn-gold w-100" style="display: block; text-align: center; margin-top: 15px; background-color: var(--yemeni-gold); color: var(--yemeni-brown); border-radius: 30px; padding: 12px 30px; font-weight: bold;">اطلب سفري الآن <i class="fa-solid fa-phone"></i></a>
                 </div>
 
             </div>
         </div>
     </section>
+
+    <section id="contact" class="section pattern-bg">
+        <div class="container">
+            <div class="contact-wrapper shadow-lg">
+                <div class="contact-info">
+                    <h2 class="section-title">التواصل والطلب</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fa-solid fa-location-dot text-red"></i>
+                            <div>
+                                <h4>موقع المطعم</h4>
+                                <p>شارع خولان، مقابل مستشفى الثورة ومبنى النادي الأهلي، صنعاء، اليمن.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone-volume text-green"></i>
+                            <div>
+                                <h4>للطلب والاستفسار (اضغط للاتصال المباشر)</h4>
+                                <p dir="ltr" style="text-align: right;">
+                                    <a href="tel:+967123456789" style="color: #16a34a; font-weight: bold; font-size: 1.2rem;">+967 123 456 789</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="alert-box">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <strong>ملاحظة:</strong> الحد الأدنى للطلب هو 1000 ريال يمني.
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15362.436737525287!2d44.2238475!3d15.3400512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1603db003185deeb%3A0x6b63d1a89c9d7df0!2z2KfZhNmF2LTYudmFINin2YTZhdmE2YPYjQ!5e0!3m2!1sar!2s!4v1716388489839!5m2!1sar!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <h3 class="text-gold">المطعم الملكي</h3>
+            <p>أصالة المذاق وتنوع الخيارات التي تستحقها.</p>
+            <div class="copyright">
+                © 2026 جميع الحقوق محفوظة لـ المطعم الملكي.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
