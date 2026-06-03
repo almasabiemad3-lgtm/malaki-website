@@ -141,7 +141,8 @@ ul {
 .hero {
     position: relative;
     height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    /* الصورة العرضية كخلفية رئيسية */
+    background-image: url('AISelect_٢٠٢٦٠٦٠٣_١٧٥٠٤٦_Facebook.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -276,24 +277,6 @@ ul {
 .service-icon { font-size: 3rem; margin-bottom: 15px; }
 .service-card p { font-size: 0.9rem; margin: 15px 0; }
 
-/* --- Reviews --- */
-.review-card {
-    border: 1px solid #eee;
-}
-.stars { font-size: 1.2rem; margin-bottom: 15px; }
-.review-text { font-style: italic; font-size: 0.95rem; margin-bottom: 25px; color: var(--text-gray); }
-.reviewer { display: flex; align-items: center; gap: 15px; }
-.avatar {
-    width: 40px; height: 40px;
-    background-color: var(--yemeni-brown);
-    color: var(--white);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-
 /* --- Contact Section --- */
 .contact-wrapper {
     display: flex;
@@ -334,18 +317,6 @@ ul {
     padding: 40px 0;
 }
 .footer h3 { font-size: 1.5rem; margin-bottom: 10px; }
-.social-links { margin: 20px 0; display: flex; justify-content: center; gap: 15px; }
-.social-links a {
-    width: 40px; height: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
-    display: flex; align-items: center; justify-content: center;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
-.social-links a:hover {
-    background-color: var(--yemeni-gold);
-    color: var(--yemeni-brown);
-}
 .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 20px;
